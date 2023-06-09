@@ -1,0 +1,328 @@
+.container-header {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid rgba(128, 128, 128, 0.314);
+  border-left: none;
+  border-right: none;
+}
+.container-header #input-search {
+  border-radius: 5px;
+  padding: 0px 50px;
+  font-size: 20px;
+  color: gray;
+  position: absolute;
+  right: 10%;
+  top: 5%;
+}
+
+.header-1 {
+  display: flex;
+}
+
+.header-2 {
+  display: flex;
+}
+
+.header-2 div img {
+  height: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.header-1 div {
+  padding: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-2 div {
+  padding: 10px;
+}
+
+.header-2 .btn-post {
+  background-color: #0077ff;
+  border-radius: 15px;
+  padding: 0px 10px;
+  margin-left: 10px;
+  margin-top: 2px;
+  height: 40px;
+}
+.header-2 .btnpost {
+  text-decoration: none;
+  color: white;
+}
+
+.header-2 .btnpost i {
+  margin-right: 10px;
+}
+
+.header-2 a {
+  color: black;
+  text-decoration: none;
+}
+.header-1 a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.card {
+  border: 1px solid rgba(128, 128, 128, 0.314);
+  width: 200px;
+  border-radius: 5px;
+}
+
+.card button {
+  border-radius: 20px;
+  padding: 10px 16px;
+  background-color: #0077ff;
+  color: white;
+  width: auto;
+  border: none;
+}
+
+.myUl li {
+  list-style: none;
+}
+
+.myUl li a {
+  text-decoration: none;
+  color: black;
+}
+
+.draw-menu-item {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.draw-menu-item .menu-tem-icon {
+  padding-right: 10px;
+}
+
+section .h3 {
+  color: gray;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.card {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.card .btn-primary {
+  width: 170px;
+  margin-left: 1.33em;
+  margin-bottom: 1.33em;
+}
+.card h4 {
+  margin-left: 1em;
+  text-align: center;
+}
+.card p {
+  text-align: center;
+  margin-left: 1em;
+}
+.menu-item {
+  margin-left: 30px;
+  margin-top: 2px;
+}
+
+.menu-item div {
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+.container-2 {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(70%);
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.container-2 div {
+  width: 800px;
+  padding: 20px;
+  margin-right: 10px;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav a {
+  color: gray;
+}
+
+.container .menu-item a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.container .menu-item i {
+  margin-right: 10px;
+}
+.border-board {
+  width: auto;
+  height: 100px;
+  border-top: 1px solid gray;
+}
+
+.content img {
+  margin-top: 20px;
+  width: 550px;
+  height: 400px;
+}
+
+.content {
+  border-radius: 4px;
+  text-align: center;
+  background-color: rgba(128, 128, 128, 0.249);
+}
+
+.modal-content {
+  position: absolute;
+  width: 620px !important;
+  border: 1px solid rgba(128, 128, 128, 0.21) !important;
+  border-radius: 3px !important;
+}
+.modal-content .signup-overlay img {
+  width: 40px;
+}
+.modal-content .modal-control {
+  text-align: center;
+}
+
+.fix-css {
+  text-align: center;
+}
+
+.modal-content .modal-control span {
+  border: 4px solid gray;
+  border-radius: 100%;
+  font-size: 2px;
+  margin: 0 2px;
+  cursor: pointer;
+}
+.signup-button {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup-button a {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid gray;
+  border-radius: 50px;
+  margin-top: 15px;
+  width: 600px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.signup-button .base-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.signup-button .btn-login {
+  width: 500px;
+  height: 40px;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.signup-button .btn-email {
+  border: none;
+  background-color: white;
+  margin-left: 50%;
+  font-weight: bold;
+  height: 40px;
+}
+
+.hide {
+  display: none;
+}
+
+.error {
+  color: red;
+}
+
+.showGray {
+  background-color: rgba(128, 128, 128, 0.327);
+  width: 200px;
+}
+
+#click-profile {
+  border: 2px solid rgba(128, 128, 128, 0.415);
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  position: absolute;
+  right: 15%;
+}
+
+.profile {
+  display: flex;
+}
+
+.profile img {
+  width: 100px;
+  border-radius: 100%;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.profile .username .nameprofile {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.profile .username .emailprofile {
+  color: gray;
+}
+
+.nav-underline {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.35);
+}
+
+.profile-blank {
+  background-color: rgba(174, 172, 172, 0.16);
+  height: 300px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile-blank h3 {
+  display: flex;
+  justify-content: center;
+}
+
+.profile-blank .profile-blank-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.profile-blank .profile-blank-content button {
+  background-color: #0077ff;
+  color: white;
+}
+
+#logout {
+  cursor: pointer;
+}
+
+#myprofile {
+  cursor: pointer;
+}

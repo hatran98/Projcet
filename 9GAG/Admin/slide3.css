@@ -1,0 +1,15 @@
+@import url(http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css);
+body {
+  margin-top: 20px;
+}
+.fa-fw {
+  width: 2em;
+}
+
+.btn-delete {
+  background-color: red;
+}
+
+.adl {
+  border: 1px solid rgba(128, 128, 128, 0.368);
+}
